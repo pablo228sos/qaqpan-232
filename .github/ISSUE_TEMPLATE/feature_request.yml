@@ -1,0 +1,29 @@
+name: Feature request
+description: Propose a focused improvement to Qaqpan 232
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user or technical problem should be solved?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe a focused implementation or behavior change.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: How could we verify it?
+      description: Tests, examples, metrics, screenshots, or acceptance criteria.
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I am willing to work on this change
