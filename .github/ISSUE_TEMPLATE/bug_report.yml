@@ -1,0 +1,31 @@
+name: Bug report
+description: Report a reproducible problem in Qaqpan 232
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting a reproducible problem. Do not include private messages, banking data, credentials, or personal information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the actual behavior and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest reproducible sequence.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, OS, Node version, and commit if relevant.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Additional context
+      description: Screenshots or sanitized examples are welcome.
