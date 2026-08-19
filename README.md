@@ -1,5 +1,7 @@
 # Qaqpan 232
 
+**Русский** | [English](README.en.md)
+
 **NovaHack 2026 · Track 4: Sustainable & Social Future**
 
 **Команда:** Sigmabeki  
@@ -114,6 +116,16 @@ python -m pip install scikit-learn numpy
 python scripts/train_model.py
 ```
 
+## Участие в разработке
+
+Qaqpan 232 развивается как открытый проект под MIT License. Мы принимаем содержательные улучшения детектора, тестов, оценки модели, русского и казахского языков, accessibility, документации и инфраструктуры.
+
+Для первого вклада смотри задачи с labels **good first issue** и **help wanted**. Перед началом более крупной задачи лучше оставить комментарий в issue, чтобы два человека не делали одну и ту же работу.
+
+Полные правила и запуск для контрибьюторов находятся в [`CONTRIBUTING.md`](CONTRIBUTING.md). Уязвимости и security-sensitive находки нужно отправлять по [`SECURITY.md`](SECURITY.md), а не публиковать в обычном issue.
+
+Не принимаются сгенерированный filler, дубликаты, массовые typo-PR, приватные переписки, credentials и изменения, сделанные только ради contribution count.
+
 ## Ограничения
 
 - Данные синтетические и не заменяют тест на реальных обращениях.
@@ -138,3 +150,7 @@ python scripts/train_model.py
 - Bakasov Abai
 - Dzhangaziev Daniyar
 - Kurmanbekov Chingiz
+
+## Лицензия
+
+Проект распространяется по [MIT License](LICENSE).
